@@ -1,3 +1,9 @@
+/*afecta a todo el documento*/
+* {
+  box-sizing: border-box;
+}
+
+/* estilos generales del body y tipografía */
 body {
   margin: 0;
   display: flex;
@@ -8,6 +14,7 @@ body {
   background: #fff;
 }
 
+/* estilos del header y lo que lleva dentro*/
 header {
   margin: 0;
   padding: 1rem 1.25rem;
@@ -15,28 +22,34 @@ header {
   color: white;
 }
 
+/*estilos para los enlaces del nav*/
 nav a {
   color: white;
 }
 
+/* estilos de las secciones */
 section {
   padding: 1rem;
 }
 
+/*estilos para la página de "Sobre mí"*/
 #sobre-mi {
   color: #ffffff;
   padding: 40px 20px;
 }
 
+/*estilos para el fondo de la página "Sobre mí"*/
 .sobre-mi-body {
   background-image: url(multimedia/img/sobremi.webp);
 }
 
+/*estilos para la página de "contacto" para ordenarlo*/
 .briefing label {
   display: block;
   margin: 0.5rem 0 0.4rem;
 }
 
+/*estilos para el pie de página*/
 .pie {
   text-align: center;
   padding: 1rem 0;
@@ -44,11 +57,13 @@ section {
   background-color: #000000;
 }
 
+/*estilos para los enlaces del pie de página*/
 footer a {
   color: #959595;
   text-decoration: none;
 }
 
+/* estilos para el main y el video*/
 main {
   flex: 1 0 auto;
 }
